@@ -1,0 +1,64 @@
+.alert-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  padding: 1.5rem;
+  padding-bottom: 2.5rem;
+  font-family: var(--primary-font);
+}
+.alert-heading {
+  margin-top: 1.5rem;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  color: black;
+}
+
+.alert-description {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--secondary-text);
+}
+
+.alert-title {
+  font-size: 2rem;
+  padding-top: 1.5rem;
+  color: black;
+}
+.alert {
+  display: flex;
+  flex-direction: column;
+}
+
+.alert .primary-alert,
+.warning-alert,
+.info-alert,
+.success-alert {
+  max-width: 20rem;
+  padding: 0.5rem;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1rem;
+  border-radius: 4%;
+  padding: 1.5rem;
+}
+
+.alert i {
+  padding-right: 0.5rem;
+}
+
+.alert .primary-alert {
+  background-color: var(--primary-alert);
+}
+
+.alert .warning-alert {
+  background-color: var(--warning-alert);
+}
+
+.alert .info-alert {
+  background-color: var(--info-alert);
+}
+
+.alert .success-alert {
+  background-color: var(--success-alert);
+  color: var(--primary-alert);
+}
