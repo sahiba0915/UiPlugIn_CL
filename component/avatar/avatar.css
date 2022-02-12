@@ -26,7 +26,7 @@
 }
 .avatar {
   display: flex;
-  width: 100px;
+  width: 6.25rem;
   margin: 2.5rem;
   gap: 2rem;
 }
