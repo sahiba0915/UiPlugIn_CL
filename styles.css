@@ -152,10 +152,10 @@
 /* Sidebar */
 
 .main-content {
-  margin: 50px auto;
+  margin: 3rem auto;
   display: grid;
-  color: white;
-  grid-template-columns: 30px 500px;
+  color: var(--secondary-color);
+  grid-template-columns: 1.87rem 31.25px;
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -250,7 +250,7 @@
 @media only screen and (max-width: 480px) {
   .list-item-inline {
     display: block;
-    margin: 1rem 0rem 1rem 0rem;
+    margin: 1rem 0;
   }
 
   .hero-text {
