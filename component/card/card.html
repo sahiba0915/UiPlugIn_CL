@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css"
+    />
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>UiPlugIn | Card</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+
+    <nav class="navigation container">
+      <i class="nav-icon fab fa-uikit"></i>
+      <div class="nav-brand">UiPlugIn</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="/" target="_blank">Home</a>
+        </li>
+
+        <li class="list-item-inline">
+          <a class="link" href="/docs.html" target="_blank">Documentation</a>
+        </li>
+
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/sahiba0915" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://twitter.com/Sahiba_Kumari"
+            target="_blank"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/sahiba0915/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Navbar -->
+
+    <main class="main-content">
+      <!-- Sidebar -->
+      <aside class="side-nav">
+        <p class="sidebar-heading">Components</p>
+        <ul class="sidebar-list">
+          <li><a href="/component/avatar/avatar.html">Avatars</a></li>
+          <li><a href="/component/badge/badge.html">Badges</a></li>
+          <li><a href="/component/alert/alert.html">Alerts</a></li>
+          <li><a href="/component/button/button.html">Buttons</a></li>
+          <li><a href="/component/card/card.html">Cards</a></li>
+          <li><a href="/component/image-responsive/image.html">Images</a></li>
+          <li><a href="/component/input/input.html">Inputs</a></li>
+        </ul>
+      </aside>
+
+      <!--Cards-->
+      <div class="doc-content">
+        <section class="card-container" id="card">
+          <h1 class="card-heading">Card</h1>
+          <p class="card-description">
+            A card represents information about related items.
+          </p>
+
+          <!-- card with badges -->
+          <h3 class="card-title">Card with Badge</h3>
+          <div class="card">
+            <div class="card-img">
+              <span class="badge-icon">New</span>
+            </div>
+            <h2>The Nahargarh Fort</h2>
+            <small>Jaipur, Rajasthan</small>
+
+            <p class="card-text">
+              Nahargarh Fort stands on the edge of the Aravalli Hills,
+              overlooking the city of Jaipur in the Indian state of Rajasthan.
+            </p>
+            <div class="card-link">
+              <button>READ</button>
+              <button>BOOKMARK</button>
+              <ul class="card-icons">
+                <li><i class="far fa-heart"></i></li>
+                <li><i class="fas fa-share-alt"></i></li>
+                <li><i class="fas fa-ellipsis-v"></i></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Code -->
+          <div class="code">
+            <pre>
+          <code class="html">
+            <div class="card">
+              <div class="card-img">
+                <span class="badge-icon">New</span>
+              </div>
+              <h2>The Nahargarh Fort</h2>
+              <small>Jaipur, Rajasthan</small>
+      
+              <p class="card-text">
+                Nahargarh Fort stands on the edge of the Aravalli Hills, overlooking
+                the city of Jaipur in the Indian state of Rajasthan.
+              </p>
+              <div class="card-link">
+                <button>READ</button>
+                <button>BOOKMARK</button>
+                <ul class="card-icons">
+                  <li><i class="far fa-heart"></i></li>
+                  <li><i class="fas fa-share-alt"></i></li>
+                  <li><i class="fas fa-ellipsis-v"></i></li>
+                </ul>
+              </div>
+            </div>
+            
+          </code>
+        </pre>
+          </div>
+
+          <hr />
+
+          <!--card with dismiss-->
+          <h3 class="card-title">Card with dismiss</h3>
+          <div class="card">
+            <div class="card-img">
+              <small class="close">&times;</small>
+            </div>
+            <h2>The Nahargarh Fort</h2>
+            <small>Jaipur, Rajasthan</small>
+
+            <p class="card-text">
+              Nahargarh Fort stands on the edge of the Aravalli Hills,
+              overlooking the city of Jaipur in the Indian state of Rajasthan.
+            </p>
+
+            <div class="card-link">
+              <button>READ</button>
+              <button>BOOKMARK</button>
+              <ul class="card-icons">
+                <li><i class="far fa-heart"></i></li>
+                <li><i class="fas fa-share-alt"></i></li>
+                <li><i class="fas fa-ellipsis-v"></i></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Code -->
+          <div class="code">
+            <pre>
+          <code class="html">
+            <div class="card">
+              <div class="card-img">
+                <small class="close">&times;</small>
+              </div>
+              <h2>The Nahargarh Fort</h2>
+              <small>Jaipur, Rajasthan</small>
+      
+              <p class="card-text">
+                Nahargarh Fort stands on the edge of the Aravalli Hills, overlooking
+                the city of Jaipur in the Indian state of Rajasthan.
+              </p>
+      
+              <div class="card-link">
+                <button>READ</button>
+                <button>BOOKMARK</button>
+                <ul class="card-icons">
+                  <li><i class="far fa-heart"></i></li>
+                  <li><i class="fas fa-share-alt"></i></li>
+                  <li><i class="fas fa-ellipsis-v"></i></li>
+                </ul>
+              </div>
+            </div>
+          </code>
+        </pre>
+          </div>
+          <hr />
+
+          <!-- card w/ Text overlay-->
+          <h3 class="card-title">Card with overlay</h3>
+          <div class="card overlay">
+            <div class="text-img">
+              <div class="card-img"></div>
+
+              <h2 class="heading">The Nahargarh Fort</h2>
+              <small class="small-txt">Jaipur, Rajasthan</small>
+            </div>
+
+            <p class="card-text">
+              Nahargarh Fort stands on the edge of the Aravalli Hills,
+              overlooking the city of Jaipur in the Indian state of Rajasthan.
+            </p>
+
+            <div class="card-link">
+              <button>READ</button>
+              <button>BOOKMARK</button>
+              <ul class="card-icons">
+                <li><i class="far fa-heart"></i></li>
+                <li><i class="fas fa-share-alt"></i></li>
+                <li><i class="fas fa-ellipsis-v"></i></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Code -->
+          <div class="code">
+            <pre>
+          <code class="html">
+            <div class="card overlay">
+              <div class="text-img">
+                <div class="card-img"></div>
+      
+                <h2 class="heading">The Nahargarh Fort</h2>
+                <small class="small-txt">Jaipur, Rajasthan</small>
+              </div>
+      
+              <p class="card-text">
+                Nahargarh Fort stands on the edge of the Aravalli Hills, overlooking
+                the city of Jaipur in the Indian state of Rajasthan.
+              </p>
+      
+              <div class="card-link">
+                <button>READ</button>
+                <button>BOOKMARK</button>
+                <ul class="card-icons">
+                  <li><i class="far fa-heart"></i></li>
+                  <li><i class="fas fa-share-alt"></i></li>
+                  <li><i class="fas fa-ellipsis-v"></i></li>
+                </ul>
+              </div>
+            </div>
+          </code>
+        </pre>
+          </div>
+          <hr />
+
+          <!-- text only card -->
+          <h3 class="card-title">Text only card</h3>
+          <div class="card">
+            <div class="card-img hide"></div>
+            <h2>The Nahargarh Fort</h2>
+            <small>Jaipur, Rajasthan</small>
+
+            <p class="card-text">
+              Nahargarh Fort stands on the edge of the Aravalli Hills,
+              overlooking the city of Jaipur in the Indian state of Rajasthan.
+            </p>
+
+            <div class="card-link">
+              <button>READ</button>
+              <button>BOOKMARK</button>
+              <ul class="card-icons">
+                <li><i class="far fa-heart"></i></li>
+                <li><i class="fas fa-share-alt"></i></li>
+                <li><i class="fas fa-ellipsis-v"></i></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Code -->
+          <div class="code">
+            <pre>
+          <code class="html">
+            <div class="card">
+              <div class="card-img hide"></div>
+              <h2>The Nahargarh Fort</h2>
+              <small>Jaipur, Rajasthan</small>
+      
+              <p class="card-text">
+                Nahargarh Fort stands on the edge of the Aravalli Hills, overlooking
+                the city of Jaipur in the Indian state of Rajasthan.
+              </p>
+      
+              <div class="card-link">
+                <button>READ</button>
+                <button>BOOKMARK</button>
+                <ul class="card-icons">
+                  <li><i class="far fa-heart"></i></li>
+                  <li><i class="fas fa-share-alt"></i></li>
+                  <li><i class="fas fa-ellipsis-v"></i></li>
+                </ul>
+              </div>
+            </div>
+          </code>
+        </pre>
+          </div>
+          <hr />
+
+          <!--Horizontal Image and text-->
+          <h3 class="card-title">Horizontal Card</h3>
+          <div class="card horizontal">
+            <div class="text-img2">
+              <div class="card-img-horizontal"></div>
+              <div class="content">
+                <h2>The Nahargarh Fort</h2>
+                <small>Jaipur, Rajasthan</small>
+              </div>
+            </div>
+            <p class="card-text hide">
+              Nahargarh Fort stands on the edge of the Aravalli Hills,
+              overlooking the city of Jaipur in the Indian state of Rajasthan.
+            </p>
+
+            <div class="card-link">
+              <button>READ</button>
+              <button>BOOKMARK</button>
+              <ul class="card-icons">
+                <li><i class="far fa-heart"></i></li>
+                <li><i class="fas fa-share-alt"></i></li>
+                <li><i class="fas fa-ellipsis-v"></i></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Code -->
+          <div class="code">
+            <pre>
+          <code class="html">
+            <div class="card">
+              <div class="card-img hide"></div>
+              <h2>The Nahargarh Fort</h2>
+              <small>Jaipur, Rajasthan</small>
+      
+              <p class="card-text">
+                Nahargarh Fort stands on the edge of the Aravalli Hills, overlooking
+                the city of Jaipur in the Indian state of Rajasthan.
+              </p>
+      
+              <div class="card-link">
+                <button>READ</button>
+                <button>BOOKMARK</button>
+                <ul class="card-icons">
+                  <li><i class="far fa-heart"></i></li>
+                  <li><i class="fas fa-share-alt"></i></li>
+                  <li><i class="fas fa-ellipsis-v"></i></li>
+                </ul>
+              </div>
+            </div>
+          </code>
+        </pre>
+          </div>
+          <hr />
+
+          <!-- Card w/ a shadow -->
+          <h3 class="card-title">Card with Shadow</h3>
+          <div class="card shadow">
+            <div class="card-img"></div>
+            <h2>The Nahargarh Fort</h2>
+            <small>Jaipur, Rajasthan</small>
+
+            <p class="card-text">
+              Nahargarh Fort stands on the edge of the Aravalli Hills,
+              overlooking the city of Jaipur in the Indian state of Rajasthan.
+            </p>
+
+            <div class="card-link">
+              <button>READ</button>
+              <button>BOOKMARK</button>
+              <ul class="card-icons">
+                <li><i class="far fa-heart"></i></li>
+                <li><i class="fas fa-share-alt"></i></li>
+                <li><i class="fas fa-ellipsis-v"></i></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Code -->
+          <div class="code">
+            <pre>
+          <code class="html">
+            <div class="card shadow">
+              <div class="card-img"></div>
+              <h2>The Nahargarh Fort</h2>
+              <small>Jaipur, Rajasthan</small>
+      
+              <p class="card-text">
+                Nahargarh Fort stands on the edge of the Aravalli Hills, overlooking
+                the city of Jaipur in the Indian state of Rajasthan.
+              </p>
+      
+              <div class="card-link">
+                <button>READ</button>
+                <button>BOOKMARK</button>
+                <ul class="card-icons">
+                  <li><i class="far fa-heart"></i></li>
+                  <li><i class="fas fa-share-alt"></i></li>
+                  <li><i class="fas fa-ellipsis-v"></i></li>
+                </ul>
+              </div>
+            </div>
+          </code>
+        </pre>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!--End-Cards-->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-heading">Social Presence</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/sahiba0915" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://twitter.com/Sahiba_Kumari"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/sahiba0915"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+      </ul>
+      <div class="footer-copyright">© copyright 2022 UiPlugIn</div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="/app.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>

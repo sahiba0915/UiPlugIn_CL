@@ -1,0 +1,183 @@
+/* Cards */
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  padding: 1.5rem;
+  padding-bottom: 2.5rem;
+  font-family: var(--primary-font);
+}
+.card-heading {
+  margin-top: 1.5rem;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  color: black;
+}
+
+.card-description {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--secondary-text);
+}
+
+.card-title {
+  font-size: 2rem;
+  padding-top: 1.5rem;
+  color: black;
+}
+.card {
+  width: 20rem;
+  margin: 2.5rem;
+  border-radius: 0.3rem;
+  background-color: var(--btn-color);
+  height: 100%;
+}
+
+.card-img {
+  height: 16rem;
+  background: url(/images/NahargarhFort.jpg);
+  background-size: cover;
+  margin-bottom: 0.9rem;
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.card-img2 {
+  height: 16rem;
+  background: url(/images/NahargarhFort.jpg);
+  background-size: cover;
+  margin: 0.9rem 0 0.9rem 0;
+}
+
+.card-img-horizontal {
+  height: 9.3rem;
+  width: 50%;
+  background: url(/images/NahargarhFort.jpg);
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  border-radius: 0.3rem 0.3rem 0 0;
+  margin-bottom: 0.6rem;
+}
+
+.card h2 {
+  margin: 0.6rem 0 0.6rem 0;
+  color: var(--secondary-color);
+}
+
+.close {
+  float: right;
+  padding: 1.5rem;
+  margin: 1rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.card small {
+  margin: 0.6rem;
+  padding: 0;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.card-text {
+  margin: 0.9rem 0.6rem 0.9rem 0.6rem;
+  color: var(--secondary-color);
+  letter-spacing: 0.1;
+}
+
+.card-link {
+  display: flex;
+  margin-bottom: 0.6rem;
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.card-icons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  color: var(--secondary-color);
+  font-size: 1.25rem;
+}
+
+.card-icons li {
+  display: inline;
+  padding-right: 1.25rem;
+  cursor: pointer;
+}
+
+.horizontal {
+  width: 31.25rem;
+}
+
+.overlay::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #b9b5b5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+  z-index: 0;
+}
+
+.heading,
+.small-txt {
+  position: relative;
+  z-index: 10;
+  color: var(--secondary-color);
+}
+
+.overlay {
+  position: relative;
+}
+
+.hide {
+  display: none;
+}
+
+.text-img2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.content {
+  float: right;
+  margin-left: auto;
+  flex: 2;
+}
+
+button {
+  background: none;
+  border: none;
+  margin: 0.6rem;
+  cursor: pointer;
+  color: var(--secondary-color);
+}
+
+button:hover,
+.card-icons li:hover {
+  color: black;
+}
+
+.shadow {
+  box-shadow: 1rem 0 1rem 0 var(--box-shadow);
+}
+
+.badge-icon {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  background-color: var(--btn-color);
+  padding: 0.3rem 0.7rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.6rem;
+  vertical-align: super;
+  font-weight: bold;
+  border-top-right-radius: 1.5rem;
+  box-shadow: 1rem 1rem 1rem 1rem var(--box-shadow);
+}
