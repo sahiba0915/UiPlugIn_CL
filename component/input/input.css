@@ -1,0 +1,81 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  padding: 1.5rem;
+  padding-bottom: 2.5rem;
+  font-family: var(--primary-font);
+}
+.input-heading {
+  margin-top: 1.5rem;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  color: black;
+}
+
+.input-description {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--secondary-text);
+}
+
+.input-title {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: black;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.input .input-field {
+  width: 20rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  box-sizing: border-box;
+  border: 0.2rem solid #ccc;
+  outline: none;
+}
+
+.input .textbox {
+  font-size: 1rem;
+  color: black;
+}
+
+#text:focus {
+  border: 0.2rem solid var(--primary-alert);
+}
+
+#error-text {
+  color: var(--warning-alert);
+}
+
+#error {
+  border: 0.2rem solid var(--warning-alert);
+}
+
+.error-msg {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: var(--warning-alert);
+}
+
+.error-msg i {
+  padding-right: 0.5rem;
+}
+
+.form-container {
+  background-color: var(--success-alert);
+  width: 30rem;
+  padding: 2rem 1rem 2rem 1rem;
+  font-family: var(--primary-font);
+  border-radius: 1rem;
+}
+
+.form-container .input-field {
+  width: 100%;
+  margin-bottom: 2rem;
+}
