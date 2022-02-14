@@ -12,10 +12,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css"
     />
-    <link rel="stylesheet" href="input.css" />
-    <link rel="stylesheet" href="/component/button/button.css">
+    <link rel="stylesheet" href="image.css" />
     <link rel="stylesheet" href="/styles.css" />
-    <title>UiPlugIn | Alert</title>
+    <title>UiPlugIn | Image</title>
   </head>
   <body>
     <!-- NavBar -->
@@ -25,42 +24,17 @@
       <div class="nav-brand">UiPlugIn</div>
       <ul class="list-non-bullet nav-pills">
         <li class="list-item-inline">
-          <a class="link" href="/"_blank">Home</a>
+          <a class="link" href="/">Home</a>
         </li>
 
         <li class="list-item-inline">
           <a class="link" href="/docs.html">Documentation</a>
         </li>
-
-        <li class="list-item-inline">
-          <a class="link" href="https://github.com/sahiba0915" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-
-        <li class="list-item-inline">
-          <a
-            class="link"
-            href="https://twitter.com/Sahiba_Kumari"
-            target="_blank"
-          >
-            <i class="fab fa-twitter"></i>
-          </a>
-        </li>
-
-        <li class="list-item-inline">
-          <a
-            class="link"
-            href="https://www.linkedin.com/in/sahiba0915/"
-            target="_blank"
-          >
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
       </ul>
     </nav>
     <!-- Navbar -->
 
+    
     <main class="main-content">
       <!-- Sidebar -->
       <aside class="side-nav">
@@ -76,103 +50,56 @@
         </ul>
       </aside>
 
-    <!--Input -->
+    <!--Responsive Image -->
     <div class="doc-content">
-    <section class="input-container" id="input">
-      <h1 class="input-heading">Input</h1>
-      <p class="input-description">
-        An input is used to take data from the user by creating them inside a
-        form.
+    <section class="img-container" id="image">
+      <h1 class="img-heading">Images</h1>
+      <p class="img-description">
+        A image should be responsive to fit into a container or according to parent
+        element width. UiPlugIn supports two types of images, which you can easily customise accordingly.
       </p>
 
-      <!-- Textbox -->
-      <h3 class="input-title">Textbox</h3>
-      <div class="input">
-        <label class="textbox">Username</label>
-        <input class="input-field" id="text" type="text" placeholder="Username" />
+      <!-- Responsive image -->
+      <h3 class="img-title">Responsive Image</h3>
+      <div class="res-img">
+        <img src="/images/NahargarhFort.jpg" alt="image" />
       </div>
 
       <!-- Code -->
       <div class="code">
         <pre>
-            <code class="html">
-              <div class="input">
-                <label class="textbox">Username</label>
-                <input class="input-field" id="text" type="text" placeholder="Username" />
-              </div>
-            </code>
-          </pre>
+          <code class="html">
+            <div class="res-img">
+              <img src="/images/NahargarhFort.jpg" alt="image" />
+            </div>
+          </code>
+        </pre>
       </div>
       <hr />
 
-      <!-- Textbox-Error styling-->
-      <h3 class="input-title">Textbox with error</h3>
-      <div class="input">
-        <label class="textbox" id="error-text">Username</label>
-        <input class="input-field" id="error" type="text" placeholder="Username" />
-        <span class="error-msg"><i class="fa-solid fa-triangle-exclamation"></i>Invalid</span>
+      <!-- Rounded image -->
+      <h3 class="img-title">Responsive Rounded Image</h3>
+      <div class="res-img">
+        <img class="rounded" src="/images/NahargarhFort.jpg" alt="image" />
       </div>
 
       <!-- Code -->
       <div class="code">
         <pre>
-            <code class="html">
-              <div class="input">
-                <label class="textbox" id="error-text">Username</label>
-                <input class="input-field" id="error" type="text" placeholder="Username" />
-                <span class="error-msg"><i class="fa-solid fa-triangle-exclamation"></i>Invalid</span>
-              </div>
-            </code>
-          </pre>
+          <code class="html">
+            <div class="res-img">
+              <img class="rounded" src="/images/NahargarhFort.jpg" alt="image" />
+            </div>
+          </code>
+          </code>
+        </pre>
       </div>
-      <hr />
-
-   <!-- Form-->
-   <h3 class="input-title">Form</h3>
-   <form class="input form-container">
-     <label class="textbox">Username</label>
-     <input class="input-field" id="text" type="text" placeholder="Username" />
-
-     <label class="textbox">E-mail</label>
-     <input class="input-field" id="text" type="email" placeholder="E-mail" />
-
-     <label class="textbox">Password</label>
-     <input class="input-field" id="text" type="password" placeholder="Password" />
-
-  <div class="hero-btns">
-      <button class="btns primary"><a href=".input-container"></a>Submit</button>
-      </div>
-  </form>
-
-
-   <!-- Code -->
-   <div class="code">
-     <pre>
-         <code class="html">
-          <form class="input form-container">
-            <label class="textbox">Username</label>
-            <input class="input-field" id="text" type="text" placeholder="Username" />
-       
-            <label class="textbox">E-mail</label>
-            <input class="input-field" id="text" type="email" placeholder="E-mail" />
-       
-            <label class="textbox">Password</label>
-            <input class="input-field" id="text" type="password" placeholder="Password" />
-       
-         <div class="hero-btns">
-             <button class="btns primary"><a href=".input-container"></a>Submit</button>
-             </div>
-         </form>
-         </code>
-       </pre>
-   </div>
-
-    </div>
     </section>
   </div>
 </main>
+ 
 
-    <!--End-Input-->
+    <!--End-Badge-->
 
     <!-- Footer -->
     <footer class="footer">
