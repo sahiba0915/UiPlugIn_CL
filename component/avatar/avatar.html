@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/styles.css" />
     <title>UiPlugIn | Avatar</title>
   </head>
+
   <body>
     <!-- NavBar -->
 
@@ -30,32 +31,6 @@
         <li class="list-item-inline">
           <a class="link" href="/docs.html">Documentation</a>
         </li>
-
-        <li class="list-item-inline">
-          <a class="link" href="https://github.com/sahiba0915">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-
-        <li class="list-item-inline">
-          <a
-            class="link"
-            href="https://twitter.com/Sahiba_Kumari"
-            target="_blank"
-          >
-            <i class="fab fa-twitter"></i>
-          </a>
-        </li>
-
-        <li class="list-item-inline">
-          <a
-            class="link"
-            href="https://www.linkedin.com/in/sahiba0915/"
-            target="_blank"
-          >
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
       </ul>
     </nav>
     <!-- Navbar -->
@@ -68,7 +43,7 @@
           <li><a href="/component/avatar/avatar.html">Avatars</a></li>
           <li><a href="/component/badge/badge.html">Badges</a></li>
           <li><a href="/component/alert/alert.html">Alerts</a></li>
-          <li><a href="/component/buttons/button.html">Buttons</a></li>
+          <li><a href="/component/button/button.html">Buttons</a></li>
           <li><a href="/component/card/card.html">Cards</a></li>
           <li><a href="/component/image-responsive/image.html">Images</a></li>
           <li><a href="/component/input/input.html">Inputs</a></li>
@@ -80,18 +55,20 @@
         <section class="avatar-container">
           <h1 class="avatar-heading">Avatar</h1>
           <p class="avatar-description">
-            An avatar basically represents a user's profile.
+            An avatar is basically a circle shaped image that represents a
+            user's profile. UiPlugin supports different sizes of avatar for
+            better usability.
           </p>
           <h3 class="avatar-title">Circular Avatar</h3>
           <div class="avatar">
             <img
               class="reg-avatar"
-              src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW4lMjBmYWNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+              src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0"
               alt="image"
             />
             <img
               class="reg-avatar"
-              src="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW4lMjBmYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              src="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c"
               alt="image"
             />
           </div>
@@ -101,8 +78,8 @@
             <pre>
           <code class="html">
               <div class="avatar">
-                <img class="reg-avatar" src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW4lMjBmYWNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="image">
-                <img class="reg-avatar" src="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW4lMjBmYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="image">
+                <img class="reg-avatar" src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0" alt="image">
+                <img class="reg-avatar" src="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c" alt="image">
             </div>
           </code>
         </pre>
@@ -115,17 +92,17 @@
           <div class="avatar">
             <img
               class="sm-avatar"
-              src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW4lMjBmYWNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+              src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0"
               alt="image"
             />
             <img
               class="md-avatar"
-              src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW4lMjBmYWNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+              src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0"
               alt="image"
             />
             <img
               class="lg-avatar"
-              src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW4lMjBmYWNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+              src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0"
               alt="image"
             />
           </div>
@@ -134,11 +111,23 @@
           <div class="code">
             <pre>
             <code class="html">
-                <div class="avatar">
-                  <img class="sm-avatar" src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW4lMjBmYWNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="image">
-                  <img class="md-avatar" src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW4lMjBmYWNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="image">
-                  <img class="lg-avatar" src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW4lMjBmYWNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="image">
-              </div>
+            <div class="avatar">
+               <img
+                  class="sm-avatar"
+                  src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0"
+                  alt="image"
+                  />
+               <img
+                  class="md-avatar"
+                  src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0"
+                  alt="image"
+                  />
+               <img
+                  class="lg-avatar"
+                  src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0"
+                  alt="image"
+                  />
+            </div>
             </code>
           </pre>
           </div>
