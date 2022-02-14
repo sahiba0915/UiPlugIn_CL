@@ -1,10 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+}
+:root {
+  --primary-text: #000000;
+  --secondary-text: #747171;
+  --primary-color: #f9a826;
+  --secondary-color: #ffffff;
+  --btn-color: #965c49;
+  --box-shadow: #979494;
+  --primary-font: "Poppins", sans-serif;
+  --primary-alert: #80b918;
+  --success-alert: #dee2e6;
+  --info-alert: #4cc9f0;
+  --warning-alert: #d62828;
+  --default-color: #000000;
+}
 .badge-container {
   display: flex;
   flex-direction: column;
-  margin-left: 2rem;
-  padding: 1.5rem;
-  padding-bottom: 2.5rem;
-  font-family: var(--primary-font);
 }
 .badge-heading {
   margin-top: 1.5rem;
@@ -15,19 +31,20 @@
 
 .badge-description {
   margin-bottom: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--secondary-text);
 }
 
 .badge-title {
   font-size: 2rem;
-  padding-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  padding-top: 1rem;
   color: var(--default-color);
 }
 
 .badge {
   display: flex;
+  width: 20rem;
+  margin: 2.5rem 0;
   gap: 2rem;
 }
 
