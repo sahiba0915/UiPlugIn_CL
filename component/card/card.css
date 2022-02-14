@@ -42,15 +42,17 @@
 }
 .card {
   width: 20rem;
-  margin: 2.5rem 0;
+  margin: 2.5rem;
   border-radius: 0.3rem;
   background-color: var(--btn-color);
   height: 100%;
 }
-
 .card-img {
+  position: relative;
+}
+.card-img img {
+  max-width: 100%;
   height: 16rem;
-  background: url(/images/NahargarhFort.jpg);
   background-size: cover;
   margin-bottom: 0.9rem;
   border-radius: 0.3rem 0.3rem 0 0;
@@ -58,34 +60,21 @@
 
 .card-img2 {
   height: 16rem;
-  background: url(/images/NahargarhFort.jpg);
   background-size: cover;
   margin: 0.9rem 0 0.9rem 0;
 }
 
-.card-img-horizontal {
+.card-img-horizontal img {
   height: 9.3rem;
-  width: 50%;
-  background: url(/images/NahargarhFort.jpg);
-  background-size: cover;
-  background-position: center;
+  width: 80%;
   flex: 1;
   border-radius: 0.3rem 0.3rem 0 0;
   margin-bottom: 0.6rem;
 }
-
 .card h2 {
   margin: 0.6rem 0 0.6rem 0;
   padding: 00.6rem;
   color: var(--secondary-color);
-}
-
-.close {
-  float: right;
-  padding: 1.5rem;
-  margin: 1rem;
-  cursor: pointer;
-  font-size: 2rem;
 }
 
 .card small {
@@ -184,15 +173,23 @@ button:hover,
 }
 
 .badge-icon {
-  display: inline-block;
-  font-size: 1.5rem;
-  margin-top: 1.5rem;
-  background-color: var(--btn-color);
-  padding: 0.3rem 0.7rem;
+  position: absolute;
+  top: 2rem;
+  left: 0;
   color: var(--secondary-color);
-  margin-bottom: 0.6rem;
-  vertical-align: super;
-  font-weight: bold;
+  background-color: var(--btn-color);
+  font-size: 1.5rem;
+  padding: 0.3rem 0.7rem;
+  font-weight: 500;
   border-top-right-radius: 1.5rem;
-  box-shadow: 1rem 1rem 1rem 1rem var(--box-shadow);
+  box-shadow: 5px var(--box-shadow);
+}
+
+.close {
+  position: absolute;
+  top: 1rem;
+  left: 17rem;
+  color: var(--primary-text);
+  cursor: pointer;
+  font-size: 2rem;
 }
