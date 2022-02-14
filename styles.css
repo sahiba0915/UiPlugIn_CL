@@ -1,260 +1,319 @@
-@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: var(--primary-font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
 }
 
 :root {
-  --primary-text: #000000;
-  --secondary-text: #747171;
-  --primary-color: #f9a826;
-  --secondary-color: #ffffff;
-  --btn-color: #965c49;
-  --box-shadow: #979494;
-  --primary-font: "Epilogue", sans-serif;
-  --primary-alert: #80b918;
-  --success-alert: #dee2e6;
-  --info-alert: #4cc9f0;
-  --warning-alert: #d62828;
-  --default-color: #000000;
+    --primary-text: #000000;
+    --secondary-text: #747171;
+    --primary-color: #f9a826;
+    --secondary-color: #ffffff;
+    --btn-color: #965c49;
+    --box-shadow: #979494;
+    --primary-font: "Poppins", sans-serif;
+    --primary-alert: #80b918;
+    --success-alert: #dee2e6;
+    --info-alert: #4cc9f0;
+    --warning-alert: #d62828;
+    --default-color: #000000;
 }
 
 /* Navigation */
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  box-shadow: 0 0 1rem 0;
-  width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 1rem 0;
+    width: 100%;
 }
 
 .navigation .nav-icon {
-  font-size: 2.5rem;
-  color: var(--primary-color);
-  padding: 0 0 2rem 0;
-  z-index: 2;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    padding: 0 0 1rem 0;
+    z-index: 2;
 }
 
 .navigation .nav-brand {
-  font-size: 3rem;
-  padding: 0 0 2rem 0;
-  font-weight: bold;
+    font-size: 2rem;
+    padding: 0 0 1rem 0;
+    font-weight: bold;
 }
 
 .navigation {
-  padding: 1rem;
-  border-bottom-left-radius: 1rem;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .navigation .nav-pills {
-  text-align: right;
-  margin-left: auto;
+    text-align: right;
+    margin-left: auto;
 }
 
 .navigation .link:hover {
-  color: var(--primary-color);
-  cursor: pointer;
+    color: var(--primary-color);
+    cursor: pointer;
 }
 
 /* links */
 .link {
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: black;
 }
 
 .list-non-bullet {
-  list-style: none;
-  font-size: 1.5rem;
-  padding-top: 1.5rem;
+    list-style: none;
+    font-size: 1rem;
+    padding-top: 1rem;
 }
 
 .list-item-inline {
-  display: inline;
-  padding: 0rem 0.5rem;
+    display: inline;
+    padding: 0rem 0.5rem;
 }
 
 /* header */
 
 .hero-header {
-  position: relative;
-  margin-top: 10rem;
-  display: flex;
-  font-family: var(--primary-font);
+    position: relative;
+    margin-top: 5rem;
+    display: flex;
+    font-family: var(--primary-font);
 }
 
 .hero-text {
-  margin: 3rem 5rem;
-  flex: 1;
-  font-family: var(--primary-font);
+    margin: 3rem 3rem;
+    flex: 1;
+    font-family: var(--primary-font);
 }
 
 .hero-heading {
-  font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .hero-para {
-  font-size: 1.5rem;
-  font-weight: 300;
-  padding-top: 1rem;
-  line-height: 3rem;
-  color: var(--secondary-text);
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: 1rem;
+    line-height: 2rem;
+    color: var(--secondary-text);
 }
 
 .hero-btns {
-  margin-top: 2rem;
+    margin-top: 2rem;
 }
 
 .hero-img {
-  width: 50%;
+    width: 40%;
 }
 
 /* buttons */
 .hero-btns {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
 }
 
 .btn {
-  font-size: 1.5rem;
-  color: white;
-  padding: 1.5rem;
-  text-decoration: none;
-  border: 2px var(--btn-color);
-  border-radius: 3%;
-  cursor: pointer;
+    font-size: 1rem;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    border: 2px var(--btn-color);
+    border-radius: 3%;
+    cursor: pointer;
 }
 
 .btn-primary {
-  padding-right: 3rem;
+    padding-right: 2rem;
 }
+
 .hero-btns .btn-primary,
 .btn-secondary {
-  background-color: var(--primary-color);
+    background-color: var(--primary-color);
 }
 
 /* Installation */
 
 .install-heading {
-  font-size: 3.5rem;
+    font-size: 3rem;
 }
+
 .install-text {
-  font-size: 1.5rem;
-  font-weight: 300;
-  padding-top: 1rem;
-  line-height: 3rem;
-  color: var(--secondary-text);
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: 1rem;
+    line-height: 2rem;
+    color: var(--secondary-text);
+}
+
+.ib {
+    width: 100%;
+    position: relative;
+    text-align: left;
 }
 
 /* Sidebar */
 
 .main-content {
-  margin: 3rem auto;
-  display: grid;
-  color: var(--secondary-color);
-  grid-template-columns: 1.87rem 31.25px;
-  grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    margin: 2rem 4rem 0 2rem;
+    color: var(--secondary-color);
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 
 .side-nav {
-  margin-left: 1.5rem;
-}
-
-.doc-content {
-  grid-column: 2/5;
+    margin-left: 1.5rem;
 }
 
 .sidebar-heading {
-  color: #000000;
-  font-size: 2rem;
-  border-bottom: 0.2rem solid var(--btn-color);
-  margin-bottom: 3rem;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
 }
 
 .sidebar-list li {
-  padding-bottom: 2rem;
-  text-decoration: none;
-  margin-left: 1.5rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    margin-left: 1rem;
 }
 
 .sidebar-list li a {
-  text-decoration: none;
-  font-size: 1.5rem;
-  color: var(--secondary-text);
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--secondary-text);
 }
 
 .sidebar-list li a:hover {
-  color: #000000;
+    color: var(--primary-color);
 }
 
 /* intro */
 .intro-container {
-  display: flex;
-  flex-direction: column;
-  margin-left: 2rem;
-  padding: 1.5rem;
-  padding-bottom: 2.5rem;
-  font-family: var(--primary-font);
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    padding-bottom: 1rem;
+    font-family: var(--primary-font);
 }
+
 .intro-heading {
-  margin-top: 1.5rem;
-  padding-bottom: 1rem;
-  font-size: 3rem;
-  color: black;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    color: black;
 }
 
 .intro-description {
-  margin-bottom: 1.5rem;
-  font-size: 1.5rem;
-  color: var(--secondary-text);
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--secondary-text);
 }
 
 /* footer */
 
 .footer {
-  background-color: var(--primary-color);
-  padding: 1rem 1rem;
-  text-align: center;
-  color: var(--secondary-color);
-  border-top-right-radius: 1rem;
-  font-family: var(--primary-font);
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+    text-align: center;
+    color: var(--secondary-color);
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    font-family: var(--primary-font);
+    max-width: 100%;
 }
 
 .footer .link {
-  font-size: 3rem;
+    font-size: 1.2rem;
 }
 
 .footer .footer-heading {
-  font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .footer ul {
-  padding-top: 1.5rem;
-  padding-inline-start: 0px;
+    padding-top: 1rem;
+    padding-inline-start: 0px;
 }
 
 .footer-copyright {
-  padding-top: 1.5rem;
-  font-size: 1.1rem;
+    padding-top: 1.2rem;
+    font-size: 1rem;
 }
 
 .footer .link:hover {
-  color: var(--secondary-color);
+    color: var(--secondary-color);
 }
 
 /* media-queries */
 
-@media only screen and (max-width: 480px) {
-  .list-item-inline {
-    display: block;
-    margin: 1rem 0;
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 65%;
+    }
+  
+    .hero-header {
+        margin-top: 3rem;
+    }
+  
+    .hero-img {
+        visibility: hidden;
+    }
+  
+    .list-item-inline {
+        display: inline;
+        padding: 0rem;
+    }
+
+    .hero-text {
+        margin: 1rem 1rem;
+        flex: 1;
+    }
+  
+    .main-content {
+        display: inline;
+        margin: 1rem;
+        padding: 1rem;
+    }
+  
+    .doc-content {
+        margin: 1.5rem;
+    }
+    
+    .btn-container {
+    margin: 0;
   }
 
-  .hero-text {
-    margin: 8rem 5rem;
-    flex: 1;
-  }
+    .intro-container {
+        margin: 0rem;
+        padding: 0rem;
+    }
+  
+    .intro-heading {
+        padding-bottom: 1rem;
+        margin: 0;
+        font-size: 2rem;
+    }
+  
+    .intro-description {
+        font-size: 1.2rem;
+    }
+  
+    .ib {
+        position: relative;
+        width: 80%;
+    }
+  
+    .footer-copyright {
+        font-size: 0.8rem;
+    }
 }
