@@ -78,3 +78,7 @@ There are 3 types of input available in UiPlugIn:
 - Textbox
 - Textbox with error
 - Form
+
+## How the Component library looks:
+
+![UiPlugin](https://github.com/sahiba0915/UiPlugIn_CL/blob/dev/component-lib.gif);
