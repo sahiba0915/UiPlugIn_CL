@@ -29,6 +29,7 @@
 }
 
 .txt-description {
+  color: var(--secondary-text);
   margin-bottom: 1.5rem;
   font-size: 1.2rem;
 }
