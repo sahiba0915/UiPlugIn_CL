@@ -21,6 +21,18 @@
   --border: rgba(0, 0, 0, 0.3);
 }
 
+.txt-heading {
+  margin-top: 1.5rem;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  color: var(--default-color);
+}
+
+.txt-description {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
 datalist {
   display: flex;
   justify-content: space-between;
