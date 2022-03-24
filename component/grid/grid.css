@@ -1,0 +1,47 @@
+:root {
+  --primary-text: #000000;
+  --secondary-text: #747171;
+  --primary-color: #f9a826;
+  --secondary-color: #ffffff;
+  --btn-color: #965c49;
+  --box-shadow: #979494;
+  --primary-font: "Poppins", sans-serif;
+  --primary-alert: #80b918;
+  --success-alert: #dee2e6;
+  --info-alert: #4cc9f0;
+  --warning-alert: #d62828;
+  --default-color: #000000;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 10px;
+  background-color: var(--primary-color);
+  text-align: center;
+}
+
+.grid-item {
+  height: 100px;
+  margin: 10px;
+  background-color: var(--secondary-color);
+  grid-row: 1fr;
+  padding: 10px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 10px;
+  background-color: var(--primary-color);
+  text-align: center;
+}
+
+.grid-title {
+  font-size: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: black;
+}
