@@ -37,6 +37,11 @@
 datalist {
   display: flex;
   justify-content: space-between;
+  color: var(--default-color);
+}
+
+.sliders p{
+  color: var(--default-color);
 }
 
 .sliders input {
