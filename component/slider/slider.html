@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css"
+    />
+    <link rel="stylesheet" href="slider.css" />
+    <link rel="stylesheet" href="/component/text/text.css" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>UiPlugIn | Range Slider</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+
+    <nav class="navigation container">
+      <i class="nav-icon fab fa-uikit"></i>
+      <div class="nav-brand">UiPlugIn</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="/index.html">Home</a>
+        </li>
+
+        <li class="list-item-inline">
+          <a class="link" href="/docs.html">Documentation</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Navbar -->
+
+    <main class="main-content">
+      <!-- Sidebar -->
+      <aside class="side-nav">
+        <p class="sidebar-heading">Components</p>
+        <ul class="sidebar-list">
+          <li><a href="/component/avatar/avatar.html">Avatars</a></li>
+          <li><a href="/component/badge/badge.html">Badges</a></li>
+          <li>
+            <a href="/component/alert/alert.html">Alerts</a>
+          </li>
+          <li><a href="/component/button/button.html">Buttons</a></li>
+          <li><a href="/component/card/card.html">Cards</a></li>
+          <li><a href="/component/image-responsive/image.html">Images</a></li>
+          <li><a href="/component/input/input.html">Inputs</a></li>
+          <li><a href="/component/text/text-utility.html">Text</a></li>
+          <li><a href="/component/lists/list.html">Lists</a></li>
+          <li><a href="/component/navigation/navigation.html">Navigation</a></li>
+          <li><a href="/component/slider/slider.html" class="active">Range Sliders</a></li>
+        </ul>
+      </aside>
+
+      <!--Slider-->
+      <div class="doc-content">
+        <h1 class="txt-heading">Range Slider</h1>
+        <p class="txt-description grey-txt">
+          A range slider is an input field that merchants can use to select a
+          numeric value within a given range (minimum and maximum values).
+        </p>
+
+        <!-- Default Range Slider -->
+        <div class="sliders">
+          <h3 class="slider-title">Default Range Slider</h3>
+          <input type="range" class="slider" id="myRange" />
+          <datalist>
+            <option value="0" label="0"></option>
+            <option value="50" label="50"></option>
+            <option value="100" label="100"></option>
+          </datalist>
+          <p>Value: <span id="demo"></span></p>
+        </div>
+      </div>
+    </main>
+
+    <!--End-Alert-->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-heading">Social Presence</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/sahiba0915" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://twitter.com/Sahiba_Kumari"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/sahiba0915"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+      </ul>
+      <div class="footer-copyright">© copyright 2022 UiPlugIn</div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="/app.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+
+    <script>
+      var slider = document.getElementById("myRange");
+      var output = document.getElementById("demo");
+      output.innerHTML = slider.value;
+
+      slider.oninput = function () {
+        output.innerHTML = this.value;
+      };
+    </script>
+  </body>
+</html>
