@@ -79,6 +79,56 @@ There are 3 types of input available in UiPlugIn:
 - Textbox with error
 - Form
 
+## Text-Utility
+
+A typography gives basic text layout and styling for your page.
+
+- headings
+- grey-text
+- small-text
+- centered-text
+
+## Lists
+
+A list helps in grouping a related set of items.
+
+- Unordered list/ Bullet List
+- Unordered list/ Bullet List
+- Ordered list
+- Stacked or Nested List
+
+## Navigation
+
+A navigation bar basically gives a menu of the website.
+
+## Range Sliders
+
+A range slider is an input field that merchants can use to select a numeric value within a given range (minimum and maximum values).
+
+## Ratings
+
+Rating provides insight into others opinions and experiences with a product. Use stars or other custom symbols.
+
+- Star Ratings
+- User Ratings
+- Ocon Ratings
+
+## Grid
+
+The grid system helps align page elements based on sequenced columns and rows.This makes our design more responsive.
+
+- Two items in a row
+- Three items in a row
+
+## Snackbar
+
+A snackbar is used to show a message at the bottom of the screen.
+
+## Model
+
+A model is used to show a message at the top of the screen. It generally display notifications.
+
+
 ## How the Component library looks:
 
 ![UiPlugin](https://github.com/sahiba0915/UiPlugIn_CL/blob/dev/component-lib.gif);
