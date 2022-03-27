@@ -131,4 +131,4 @@ A model is used to show a message at the top of the screen. It generally display
 
 ## How the Component library looks:
 
-![UiPlugin](https://github.com/sahiba0915/UiPlugIn_CL/blob/dev/component-lib.gif);
+![UiPlugin](https://github.com/sahiba0915/UiPlugIn_CL/blob/tempdev/component-lib.gif);
