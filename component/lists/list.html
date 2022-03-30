@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css"
+    />
+    <link rel="stylesheet" href="list.css">
+    <link rel ="stylesheet" href="/component/text/text.css">
+    <link rel="stylesheet" href="/styles.css" />
+    <title>UiPlugIn | Lists</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+
+    <nav class="navigation container">
+      <i class="nav-icon fab fa-uikit"></i>
+      <div class="nav-brand">UiPlugIn</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="/"_blank">Home</a>
+        </li>
+
+        <li class="list-item-inline">
+          <a class="link" href="/docs.html">Documentation</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Navbar -->
+
+    <main class="main-content">
+      <!-- Sidebar -->
+      <aside class="side-nav">
+        <p class="sidebar-heading">Components</p>
+        <ul class="sidebar-list">
+          <li><a href="/component/avatar/avatar.html">Avatars</a></li>
+          <li><a href="/component/badge/badge.html">Badges</a></li>
+          <li><a href="/component/alert/alert.html">Alerts</a></li>
+          <li><a href="/component/button/button.html">Buttons</a></li>
+          <li><a href="/component/card/card.html">Cards</a></li>
+          <li><a href="/component/image-responsive/image.html">Images</a></li>
+          <li><a href="/component/input/input.html">Inputs</a></li>
+          <li><a href="/component/text/text-utility.html">Text</a></li>
+          <li><a href="/component/lists/list.html" class="active">Lists</a></li>
+          <li>
+            <a href="/component/navigation/navigation.html">Navigation</a>
+          </li>
+          <li>
+            <a href="/component/slider/slider.html"
+              >Range Sliders</a
+            >
+          </li>
+          <li>
+            <a href="/component/ratings/ratings.html">Ratings</a>
+          </li>
+          <li>
+            <a href="/component/grid/grid.html">Grid</a>
+          </li>
+        </ul>
+      </aside>
+
+   <!-- Lists -->
+    <div class="doc-content">
+      <h1 class="list-heading">Lists</h1>
+          <p class="list-description grey-txt">
+            A list helps in grouping a related set of items.
+          </p>
+
+          <!-- Normal List -->
+          <!-- Unordered List -->
+          <h3 class="list-title">Unordered list/ Bullet List</h3>
+          <ul class ="list-ul">
+              <li class="list-items">Bread</li>
+              <li class="list-items">Butter</li>
+              <li class="list-items">Jam</li>
+          </ul>
+
+          <!-- Code -->
+          <div class="code">
+            <pre>
+            <code class="html">
+                <ul class ="list-ul">
+                    <li class="list-items">Bread</li>
+                    <li class="list-items">Butter</li>
+                    <li class="list-items">Jam</li>
+                </ul>
+            </code>
+          </pre>
+          </div>
+          <hr />
+
+          <!-- Non-bullet list -->
+          <h3 class="list-title">Unordered list/ Non-Bullet List</h3>
+          <ul class ="list-ul">
+              <li class="list-items-non-bullet">Bread</li>
+              <li class="list-items-non-bullet"">Butter</li>
+              <li class="list-items-non-bullet"">Jam</li>
+          </ul>
+
+          <!-- Code -->
+          <div class="code">
+            <pre>
+            <code class="html">
+                <ul class ="list-ul">
+                    <li class="list-items-non-bullet">Bread</li>
+                    <li class="list-items-non-bullet"">Butter</li>
+                    <li class="list-items-non-bullet"">Jam</li>
+                </ul>
+            </code>
+          </pre>
+          </div>
+          <hr />
+
+         <!-- Ordered List -->
+         <h3 class="list-title">Ordered list</h3>
+          <ol class ="list-ol">
+            <li class="list-items">Bread</li>
+            <li class="list-items">Butter</li>
+            <li class="list-items">Jam</li>
+        </ol>
+    
+        <!-- Code -->
+        <div class="code">
+            <pre>
+            <code class="html">
+                <ol class ="list-ol">
+                    <li class="list-items">Bread</li>
+                    <li class="list-items">Butter</li>
+                    <li class="list-items">Jam</li>
+                </ol>
+            </code>
+          </pre>
+          </div>
+          <hr />
+
+           <!-- End- Normal list -->
+          
+
+        <!-- Stacked list -->
+        <h3 class="list-title">Stacked or Nested List</h3>
+        <ol class="list-ul"><!-- start of  main list-->
+            <li class="list-items">HTML</li>
+             <li class="list-items">CSS</li>
+              <li class="list-items">JavaScript
+                      <ul classs="stacked-list"><!-- start of nested list-->
+                          <li>Angular</li>
+                          <li>React</li>
+                          <li>Vue</li>
+                      </ul><!--end of nested list-->
+               </li>
+           </ol><!--end of  main list -->
+           
+        <!-- Code -->
+        <div class="code">
+            <pre>
+            <code class="html">
+                <ol class ="list-ol">
+                    <li class="list-items">Bread</li>
+                    <li class="list-items">Butter</li>
+                    <li class="list-items">Jam</li>
+                </ol>
+            </code>
+        </pre>
+        </div>
+        <hr />
+
+
+        <!-- End-Stacked-list -->
+    </main>
+
+<!-- End lists -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-heading">Social Presence</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/sahiba0915" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://twitter.com/Sahiba_Kumari"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/sahiba0915"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+      </ul>
+      <div class="footer-copyright">© copyright 2022 UiPlugIn</div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="/app.js"></script>
+    <script>hljs.highlightAll();</script>
+  </body>
+</html>
