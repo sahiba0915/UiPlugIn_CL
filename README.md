@@ -79,6 +79,29 @@ There are 3 types of input available in UiPlugIn:
 - Textbox with error
 - Form
 
+## Text-Utility
+
+A typography gives basic text layout and styling for your page.
+
+- headings
+- grey-text
+- small-text
+- centered-text
+
+## Lists
+
+A list helps in grouping a related set of items.
+
+- Unordered list/ Bullet List
+- Unordered list/ Bullet List
+- Ordered list
+- Stacked or Nested List
+
+## Navigation
+
+A navigation bar basically gives a menu of the website.
+
+
 ## How the Component library looks:
 
 ![UiPlugin](https://github.com/sahiba0915/UiPlugIn_CL/blob/dev/component-lib.gif);
