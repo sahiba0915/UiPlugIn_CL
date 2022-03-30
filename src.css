@@ -5,3 +5,6 @@
 @import url("./component/card/card.css");
 @import url("./component/image/image.css");
 @import url("./component/input/input.css");
+@import url("./component/text/text-utility.css");
+@import url("./component/lists/list.css");
+@import url("./component/navigation/navigation.css");

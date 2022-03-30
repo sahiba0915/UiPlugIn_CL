@@ -12,9 +12,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css"
     />
-    <link rel="stylesheet" href="text.css">
+    <link rel="stylesheet" href="navigation.css" />
     <link rel="stylesheet" href="/styles.css" />
-    <title>UiPlugIn | Text-Utility</title>
+    <title>UiPlugIn | Navigation</title>
   </head>
   <body>
     <!-- NavBar -->
@@ -24,7 +24,7 @@
       <div class="nav-brand">UiPlugIn</div>
       <ul class="list-non-bullet nav-pills">
         <li class="list-item-inline">
-          <a class="link" href="/"_blank">Home</a>
+          <a class="link" href="/index.html">Home</a>
         </li>
 
         <li class="list-item-inline">
@@ -52,83 +52,77 @@
         </ul>
       </aside>
 
-    <!--Typography -->
-    <div class="doc-content">
-      <h1 class="txt-heading">Typography</h1>
-          <p class="txt-description grey-txt">
-            A typography gives basic text layout and styling for your page.
-          </p>
-      <!-- Headings -->
-      <h3 class="heading">Headings</h3>
-      <div class="headings">
-          <h1>This is h1 heading</h1>
-          <h2>This is h2 heading</h2>
-          <h3>This is h3 heading</h3>
-          <h4>This is h4 heading</h4>
-          <h5>This is h5 heading</h5>
-          <h6>This is h6 heading</h6>
-        </div>
-          
-      <!-- Code -->
-      <div class="code">
-        <pre>
-        <code class="html">
-          <div class="headings">
-            <h1>This is h1 heading</h1>
-            <h2>This is h2 heading</h2>
-            <h3>This is h3 heading</h3>
-            <h4>This is h4 heading</h4>
-            <h5>This is h5 heading</h5>
-            <h6>This is h6 heading</h6>
+      <!--Navigation-->
+      <div class="doc-content">
+        <h1 class="nav-heading">Navigation</h1>
+        <p class="nav-description">
+          A navigation bar basically gives a menu of the website.
+        </p>
+        <!--Header-->
+        <h3 class="header-title">Desktop(simple)</h3>
+        <header class="header">
+          <div class="header-1">
+            <a href="#" class="logo"> NavBar</a>
+            <form class="search-form">
+              <input
+                type="search"
+                name="searchbox"
+                placeholder="What are you looking for?"
+                id="search-box"
+              />
+              <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+              <div id="search-btn" class="fas fa-search"></div>
+              <a href="#" class="fas fa-user"></a>
+              <a href="#" class="fa-solid fa-shirt"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-shopping-cart"></a>
+            </div>
           </div>
-        </code>
-      </pre>
-      <hr />
+        </header>
 
-      <!-- Small-Text -->
-      <h3 class="heading">Small Text</h3>
-      <small class="sm-txt">This is a small text.</small>
-
-      <!-- Code -->
-      <div class="code">
-        <pre>
-        <code class="html">
-          <small class="sm-txt">This is a small text.</small>
-        </code>
-      </pre>
-      </div>
-      <hr />
-
-      <!-- Gray Text -->
-       <h3 class="heading">Grey Text</h3>
-       <p class="grey-txt">This is a grey text.</p>
-       <!-- Code -->
-       <div class="code">
-        <pre>
-        <code class="html">
-          <p class="gray-txt">This is a grey text.</p>
-        </code>
-      </pre>
-      </div>
-       <hr />
-
-      <!-- Gray Text -->
-      <h3 class="heading">Centered Text</h3>
-      <p class="center-txt">This is a centered text.</p>
-      <!-- Code -->
-      <div class="code">
-        <pre>
-        <code class="html">
-          <p class="center-txt">This is a centered text.</p>
-        </code>
-      </pre>
-      </div>
-      </div>
+        <!-- Code -->
+        <div class="code">
+          <pre>
+          <code class="html">
+              <h1 class="nav-heading">Navigation</h1>
+              <p class="nav-description">
+                A navigation bar basically gives a menu of the website.
+              </p>
+              <!--Header-->
+              <h3 class="header-title">Desktop(simple)</h3>
+              <header class="header">
+                <div class="header-1">
+                  <a href="#" class="logo"> NavBar</a>
+                  <form class="search-form">
+                    <input
+                      type="search"
+                      name="searchbox"
+                      placeholder="What are you looking for?"
+                      id="search-box"
+                    />
+                    <label for="search-box" class="fas fa-search"></label>
+                  </form>
+    
+                  <div class="icons">
+                    <div id="search-btn" class="fas fa-search"></div>
+                    <a href="#" class="fas fa-user"></a>
+                    <a href="#" class="fa-solid fa-shirt"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                  </div>
+                </div>
+              </header>
+          </code>
+        </pre>
+        </div>
+        <hr />
       </div>
     </main>
 
-
-    <!--End-Typography-->
+    <!--End-Alert-->
 
     <!-- Footer -->
     <footer class="footer">
@@ -162,6 +156,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script src="/app.js"></script>
-    <script>hljs.highlightAll();</script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>
