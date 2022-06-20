@@ -13,7 +13,7 @@ elements.
 <link rel="stylesheet" href="https://uiplugin.netlify.app/src.css" />
 ```
 
-UiPlugIn as of now has 7 components:
+UiPlugIn Components:
 
 - Avatars
 - Badges
