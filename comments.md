@@ -5,8 +5,8 @@
 - Slider.
 - Snackbar.
 
-### Changes
--Fixed all links.
+### Changes:
+- Fixed all links.
 
 ### Note:
--Please refer to the tempdev branch for the new components added.
+- Please refer to the tempdev branch for the new components added.
