@@ -22,6 +22,14 @@ UiPlugIn as of now has 7 components:
 - Cards
 - Images
 - Inputs
+- Text-Utility
+- Lists
+- Navigation
+- Range Slider
+- Ratings
+- Grid
+- Snackbar
+- Model
 
 ## Avatars
 
